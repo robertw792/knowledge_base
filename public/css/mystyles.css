@@ -1,0 +1,124 @@
+.img-center {
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+}
+
+.navbar-nav, a {
+    margin-top: 10px;
+    background-color: #F8F8F8;
+    border-color: #e7e7e7;
+    color: #147646;
+}
+.icon-bar {background-color: #000;}
+
+/* This code changes the table row of an odd number to destek green */
+tr:nth-of-type(odd) { background-color:#E2EFDA; }
+
+/* shows border when tabbing through focusable elements like links */
+:focus{ border: 2px solid #4285F4 !important;}
+#custom-search-input {
+padding: 3px;
+border: solid 1px #E4E4E4;
+border-radius: 6px;
+background-color: #fff;
+}
+/* changing colour of the 'btn' class to destek colours */
+.btn {
+	background-color: #147646;
+	color: #FFF;
+}
+
+footer { margin: 30px 0; }
+#layout {
+background-color: #EEE;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+/* margins are used here to give the container space from the header and footer */
+}
+
+#footer {
+background-color: #147646;
+color: #FFF;
+}
+
+.form-control {
+margin-bottom: 2em;
+}
+
+#header {
+background-color: #147646;
+color: #FFF;
+}
+/* this div id is for the textareas code snippet field */
+#code_snippet {
+margin-top: 0.33em;
+line-height: 1.5em;
+width: 100%;
+padding: 0.25em;
+border: 0.2em solid #222;
+font-size: inherit;
+height: 15em;
+background-color: #FF9;
+resize: none;
+}
+#description{
+	height: 10em;
+
+}
+#guidance{
+	height: 5em;
+}
+/*stop users from resizing the size of the textarea element */
+textarea{resize: none;}
+
+/* this div class is for the textareas description and action required fields */
+.error_des_action_req {
+margin-top: 0.33em;
+line-height: 1.5em;
+width: 100%;
+padding: 0.25em;
+border: 0.2em solid #222;
+font-size: inherit;
+height: 15em;
+resize: none;
+}
+/* This is styling for the custom messages */
+p.message {
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0 ; padding: 1em;
+}
+label.failed {
+	border: red thin solid;
+}
+
+label {font-size: 16px;}
+
+
+/* This styling is used to make the input fields more visually attractive */
+input[type="text"], textarea.form-control, input[type="password"], select.form-control {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #f8f8f8;
+    border: 3px solid #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #888;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+  }
+#search_record{ height: 40px !important; }
